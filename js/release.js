@@ -21,6 +21,6 @@ function getRelease(releaseParam) {
     return release
 }
 
-const releaseParam = getParam("release");
+const releaseParam = getParam("title");
 const release = getRelease(releaseParam);
 renderIndiviudalRelease(release);

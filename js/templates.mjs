@@ -16,7 +16,7 @@ export function releaseTemplate(release) {
     return `
         <div class="release">
             <div class="cover-art">
-                <a href="release.html?release=${release.title}">
+                <a href="./release?title=${release.title}">
                     <img src="images/cover-art/${release.image}" alt="${release.title}">
                 </a>
             </div>
@@ -62,7 +62,7 @@ export function latestReleaseTemplate(release) {
     return `
     <div class="release latest">
         <div class="cover-art">
-            <a href="release.html?release=${release.title}">
+            <a href="./release?title=${release.title}">
                 <img src="images/cover-art/${release.image}" alt="${release.title}">
             </a>
         </div>
