@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drozax - Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <img id="background-img" src="images/hero.png" alt="hero" />
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img src="images/logo.jpg" alt="logo" id="logo"
+        /></a>
+        <ul>
+          <!-- <li id="logo-container"><a href="index.html"><img src="images/logo.jpg" alt="logo" id="logo"></a></li> -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="latest-release">
+        <h2>Latest Release</h2>
+        <div id="latest-container"></div>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hey, I'm Drozax. I'm a music producer and programmer from Idaho, USA.
+        </p>
+        <p>
+            I write chillsynth and synthwave, but I'm looking to branch out in the future.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> Drozax</p>
+    </footer>
+    <script type="module" src="js/latestRelease.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
