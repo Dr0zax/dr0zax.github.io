@@ -1,12 +1,12 @@
 export const releases = [
-  // {
-  //   title: "Lumen",
-  //   releaseDate: "4/11/2025",
-  //   image: "lumen.jpg",
-  //   links: ["", "https://drozax.bandcamp.com/track/lumen", ""],
-  //   type: "single",
-  //   description: "A single from my Album \"Polaris\""
-  // },
+  {
+    title: "Lumen",
+    releaseDate: "4/11/2025",
+    image: "lumen.jpg",
+    links: ["https://open.spotify.com/album/0omRs2Mb5xfgvOblHu9Ujv", "https://drozax.bandcamp.com/track/lumen", "https://youtu.be/M0ckBrEHjJg?si=p0n74xyXMciZU3Wf"],
+    type: "single",
+    description: "A single from my Album \"Polaris\""
+  },
   {
     title: "Ponder",
     releaseDate: "2/17/2025",
